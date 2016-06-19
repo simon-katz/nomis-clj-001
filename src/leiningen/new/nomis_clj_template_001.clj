@@ -1,11 +1,11 @@
-(ns leiningen.new.x-template
+(ns leiningen.new.nomis-clj-template-001
   (:require [leiningen.new.templates :as t]))
 
-(def render (t/renderer "x-template"))
+(def render (t/renderer "nomis-clj-template-001"))
 
-(def raw (t/raw-resourcer "x-template"))
+(def raw (t/raw-resourcer "nomis-clj-template-001"))
 
-(defn x-template
+(defn nomis-clj-template-001
   [name]
   (let [data {:name name
               :project-name (t/project-name name)

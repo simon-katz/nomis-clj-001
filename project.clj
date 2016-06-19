@@ -1,4 +1,4 @@
-(defproject x-template/lein-template "0.0.1"
+(defproject nomis-clj-template-001/lein-template "0.0.1"
   :description "Created with lein-create-template"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
