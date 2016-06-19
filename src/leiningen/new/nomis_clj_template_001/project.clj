@@ -1,7 +1,7 @@
 (defproject {{ns-name}} "0.1.0-SNAPSHOT"
-  :description "FIXME: write this!"
+  :description "FIXME: Add description"
   :url "http://example.com/FIXME"
-  :license {:name "Eclipse Public License"
+  :license {:name "Eclipse Public License" ; FIXME -- is this what you want?
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
   :dependencies [[org.clojure/clojure "1.7.0"]
@@ -56,7 +56,7 @@
                 :figwheel {:on-jsload "{{ns-name}}.main/on-js-reload"}}]}
 
   :figwheel {;; :http-server-root "public" ;; default and assumes "resources"
-             ;; :server-port 3449 ;; default #### Probably want to change this
+             ;; :server-port 3449 ; that's the default -- FIXME: Probably change this
              ;; :server-ip "127.0.0.1"
 
              :css-dirs ["resources/public/css"] ;; watch and update CSS

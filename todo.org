@@ -1,4 +1,5 @@
-* !!!!
+* ####
+** See all ####
 ** Make this a real (but simple) app
 *** Add domain namespaces
 **** A stop/start-able "ordinary" domain namespace
