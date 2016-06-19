@@ -1,4 +1,5 @@
-(ns {{ns-name}}.play.re-com-play)
+(ns {{ns-name}}.play.re-com-play
+  (:require [re-com.core :as re]))
 
 (defn make-re-com-stuff []
   (time
