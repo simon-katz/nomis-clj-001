@@ -1,0 +1,8 @@
+* !!!!
+** Make this a real (but simple) app
+*** Add domain namespaces
+**** A stop/start-able "ordinary" domain namespace
+**** A stop/start-able go-loop domain namespace
+*** Have a used service
+*** Have some tests
+** ? Have config (server port) in a .edn file
