@@ -56,7 +56,7 @@
                 :figwheel {:on-jsload "{{ns-name}}.main/on-js-reload"}}]}
 
   :figwheel {;; :http-server-root "public" ;; default and assumes "resources"
-             ;; :server-port 3449 ;; default
+             ;; :server-port 3449 ;; default #### Probably want to change this
              ;; :server-ip "127.0.0.1"
 
              :css-dirs ["resources/public/css"] ;; watch and update CSS
