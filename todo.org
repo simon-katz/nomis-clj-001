@@ -1,5 +1,4 @@
 * !!!!
-** Change all "notondef" to something else (e.g. "template-name"/"template_name")
 ** Make this a real (but simple) app
 *** Add domain namespaces
 **** A stop/start-able "ordinary" domain namespace
