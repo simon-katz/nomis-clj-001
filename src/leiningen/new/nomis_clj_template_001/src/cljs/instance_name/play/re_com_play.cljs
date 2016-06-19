@@ -21,6 +21,4 @@
                            (nestify [(r (inc cnt))
                                      (stuff cnt)])))]
                  (r 1)))]
-       [:div
-        [:h1 "{{ns-name}}"]
-        (nested-structure nesting-level)]))))
+       (nested-structure nesting-level)))))

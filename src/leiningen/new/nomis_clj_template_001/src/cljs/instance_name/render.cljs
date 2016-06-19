@@ -9,6 +9,7 @@
 
 (defn top-level-render []
   [:div {:style (style-for-top-level-div)}
+   [:h1 "{{ns-name}}"]
    (case 1
-     1 [:h1 "{{ns-name}}"]
+     1 nil
      2 (re-com-play/make-re-com-stuff))])
