@@ -1,5 +1,5 @@
 (ns leiningen.new.x-template
-  (:use [leiningen.new.templates :only [renderer raw-resourcer name-to-path sanitize-ns ->files]]))
+  (:use [leiningen.new.templates :only [renderer raw-resourcer name-to-path sanitize-ns project-name ->files]]))
 
 (def render (renderer "x-template"))
 
@@ -8,6 +8,7 @@
 (defn x-template
   [name]
   (let [data {:name name
+              :project-name (project-name name)
               :ns-name (sanitize-ns name)
               :sanitized (name-to-path name)}]
     (letfn [(render' [f]
@@ -31,7 +32,7 @@
                ["resources/public/assets/css/re-com.css"                           (render' "resources/public/assets/css/re-com.css")]
                ["resources/public/assets/css/bootstrap.css"                        (render' "resources/public/assets/css/bootstrap.css")]
                ["resources/public/css/style.css"                                   (render' "resources/public/css/style.css")]
-               ["resources/public/{{sanitized}}.html"                              (render' "resources/public/notondef.html")]
+               ["resources/public/{{project-name}}.html"                           (render' "resources/public/notondef.html")]
                
                ["resources/public/assets/css/chosen-sprite.png"                    (raw "resources/public/assets/css/chosen-sprite.png")]
                ["resources/public/assets/css/chosen-sprite@2x.png"                 (raw "resources/public/assets/css/chosen-sprite@2x.png")]
