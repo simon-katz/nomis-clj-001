@@ -16,7 +16,7 @@
 
 (def ^:private config
   {:http {:port (or (http-port-from-env)
-                    26741)}}) ; #### Change port no (need a config file)
+                    12345)}}) ; #### Change port no (need a config file)
 
 ;;;; ___________________________________________________________________________
 
