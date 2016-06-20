@@ -90,4 +90,6 @@
                    :dependencies [[org.clojure/tools.namespace "0.2.11"]
                                   [midje "1.7.0"]]
                    :plugins [[lein-midje "3.1.3"]]}
-             :uberjar {:aot :all}})
+             :uberjar {:aot :all}}
+
+  :target-path "target/%s/")
