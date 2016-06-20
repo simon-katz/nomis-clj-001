@@ -28,6 +28,7 @@
   :repl-options {:init-ns user}
 
   :source-paths ["src/clj"]
+  :test-paths   ["test/clj"]
   
   :clean-targets ^{:protect false} ["resources/public/js/compiled" "target"]
 
