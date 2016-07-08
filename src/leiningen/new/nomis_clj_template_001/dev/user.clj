@@ -7,7 +7,6 @@
             [clojure.tools.namespace.move :refer :all]
             [clojure.tools.namespace.repl :refer :all]
             [com.stuartsierra.component :as component]
-            [com.walmartlabs.system-viz :as viz]
             [midje.repl :refer :all]
             [{{ns-name}}.system.main :as main]
             [{{ns-name}}.system.system :as system]))
